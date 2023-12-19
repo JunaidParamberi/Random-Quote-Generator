@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #2E2E2E;
+  color: rgb(178, 178, 178);
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  padding: 20px 20px ;
+  
+}
+
+.App h1{
+  font-weight: 400;
+  text-align: center;
+
+}
+.App h2{
+  font-weight: 300;
+  text-align: center;
+}
+
+.quate-container{
+  background-color: rgb(178, 178, 178);
+  color: #2E2E2E;
+  padding: 50px 30px;
+  margin-top: 30px ;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:10px ;
+}
+
+.quate-container h2 {
+  max-width: 400px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.quate-container p{
+  font-weight: 300;
+  text-align: right;
+}
+
+.App button{
+  padding: 10px 20px ;
+  width: 150px;
+  margin-top: 50px ;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #2E2E2E;
+  background-color: rgb(178, 178, 178);
+
+  
+}
+
+
+.text-container{
+  position: relative;
+}
+
+.text-container::after{
+  content: "";
+  width: 100%;
+  height: 0.1px;
+  background-color: #2E2E2E;
+  position: absolute;
+  bottom: -20px;
+}
+
+.App button:active{
+  transform: scale(0.97);
+  transition: 0.2s;
+}
+
+
